@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "langchaindemucs"
+version = "0.1.0"
+description = "a custom tool to integrate demucs into langchain"
+authors = ["Jon Sampson <jon.sampson@gmail.com>"]
+license = "Apache 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "^0.1.13"
+demucs = "^4.0.1"
+transformers = "^4.39.1"
+accelerate = "^0.28.0"
+bitsandbytes = "^0.43.0"
+langchainhub = "^0.1.15"
+sentencepiece = "^0.2.0"
+protobuf = "^5.26.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
